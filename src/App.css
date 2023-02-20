@@ -1,0 +1,50 @@
+html,
+body,
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	font-family: helvetica;
+}
+
+.guess-me {
+	width: 100vw;
+	height: 40vh;
+	background: blue;
+	margin-bottom: 16px;
+}
+
+button {
+	margin: 4px;
+	font-size: 20px;
+	background: black;
+	color: white;
+	border: none;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrong {
+	color: red;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 5rem;
+	position: absolute;
+	left: 0;
+	font-size: 5rem;
+}
+
+.correct {
+	color: green;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 5rem;
+	right: 0;
+	position: absolute;
+	font-size: 5rem;
+}
